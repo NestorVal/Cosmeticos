@@ -1,0 +1,47 @@
+/* Estilo para el título de la tarjeta */
+
+  #card-nosotros{
+    max-width: 100%; /* Limitar el ancho máximo */
+    padding: 1rem; 
+    align-items: center;
+    display: flex;
+  }
+  .card {
+    padding: 10px;
+  }
+
+  .cardNosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-title {
+    color: #333; /* Color del texto */
+    font-size: 1.5rem; /* Tamaño de fuente */
+    margin-bottom: 1rem; /* Espacio inferior */
+  }
+  
+  /* Estilo para el texto de la tarjeta */
+  .card-text {
+    color: #666; /* Color del texto */
+    font-size: 1rem; /* Tamaño de fuente */
+  }
+  .tab-content {
+    display: grid;
+    place-items: center; /* Centra horizontal y verticalmente */
+  }
+  
+  .productos {
+    text-align: center;
+  }
+  .imgCompras{
+  width: 80px;
+}
+
+/*.navbar-brand, .navbar-nav .nav-link { BOOSTRAP
+  color: #fff;  Cambiar el color del texto a blanco 
+}*/
+.navbar{
+  background-image: linear-gradient(90deg, #d482c5 0%, #eae6e6 50%, #d482c5 100%);
+  
+}
+

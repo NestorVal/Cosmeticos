@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/styleCards.css" rel="stylesheet">
+      <link rel="shortcut icon" href="img/pngwing.com (4).png">
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css"
+    rel="stylesheet"
+    />
+      <title>Line Beauty</title>
+  </head>
+  <body>
+      <header>
+          <!-- Intro settings -->
+        <style>
+            /* Default height for small devices */
+          #inicio {
+            height: 250px;
+          }
+        
+            /* Height for devices larger than 992px */
+          @media (min-width: 992px) {
+            #inicio {
+              height: 900px;
+            }
+          }
+        </style>
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light ">
+          <div class="container-fluid">
+            <button
+              data-mdb-collapse-init
+              class="navbar-toggler"
+              type="button"
+              data-mdb-target="#navbarExample01"
+              aria-controls="navbarExample01"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                <li class="nav-item active ">
+                  <a class="nav-link" aria-current="page" href="#inicio"> <img src="/img/pngwing.com (4).png" class="imgCompras"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#registro">Registrate</a>
+                </li>
+              </ul>
+              <a href="carritoIndex.html"><img src="/img/pngwing.com (6).png" class="imgCompras"></a>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+        
+        <!-- Background image -->
+        <div
+          id="inicio"
+          class="text-center bg-image ">
+          <img src="img/headerlogo.jpg" class="img-fluid" >
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.450);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3">Line Beauty</h1>
+                <h5 class="mb-4">Resalta tu belleza natural</h5>
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-outline-light btn-lg m-2"
+                  href="https://www.youtube.com/watch?v=8tfxGHPtpA8"
+                  role="button"
+                  rel="nofollow"
+                  target="_blank"
+                >Tutoriales</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+        <br>
+        <br>
+        <br>
+        <div id="card-nosotros" class="cardNosotros" >
+          <h1 id="nosotros">Nuestro equipo de trabajo</h1>
+          <br>
+          <div class="row">
+            <div class="card mb-3, col-lg-6" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/hugowilches.jpeg"
+                    alt="Trendy Pants and Shoes"
+                    class="img-fluid rounded-start"/>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Hugo Wilches<h5>
+                    <p class="card-text">
+                      Desarrollar front- end enfocado en mantenimiento y optimización de sitios web e interfaces de usuario.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3, col-lg-6" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/camiloromero.jpeg"
+                    alt="Trendy Pants and Shoes"
+                    class="img-fluid rounded-start"/>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Camilo Romero</h5>
+                    <p class="card-text">
+                      Desarrollador en sistemas informáticos y analista de software.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card mb-3, col-lg-6" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/andresolguin.jpeg"
+                    alt="Trendy Pants and Shoes"
+                    class="img-fluid rounded-start"/>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Andres Muñoz</h5>
+                    <p class="card-text">
+                      Ingeniero de sistemas apasionado por la informática. Me interesa trabajar en proyectos desafiantes que tengan un impacto real en el mundo. 
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3, col-lg-6" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/nestor.jpeg"
+                    alt="Trendy Pants and Shoes"
+                    class="img-fluid rounded-start"/>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Nestor Rubiano</h5>
+                    <p class="card-text">
+                      Desarrollador de software, con enfasis en full stack y conocimiento de bases de datos.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h1 id="productos" class="productos">Productos</h1>
+        <br>
+        <div class="card-group">
+          <div class="card">
+            <img src="img/cremas.jpeg" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+            <div class="card-body">
+              <h5 class="card-title">Cremas</h5>
+              <p class="card-text">
+                Piel radiante y humectada con nuestras cremas hidratantes.
+                Hidratación profunda y duradera para una piel luminosa y saludable.
+                Nuestras cremas hidratantes faciales y corporales ofrecen una fórmula rica en nutrientes que nutre, protege y revitaliza la piel.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/labiales.jpg" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+            <div class="card-body">
+              <h5 class="card-title">Labiales</h5>
+              <p class="card-text">
+                  Labios vibrantes y llenos de color con nuestros labiales de alta pigmentación.
+                  Fórmula hidratante y nutritiva que cuida tus labios.
+                  Acabados mate, satinados y cremosos para todos los estilos.
+                  Larga duración para que tu color te acompañe todo el día.
+                  Encuentra el tono perfecto para ti entre nuestra amplia gama de colores.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/base.jpg" class="card-img-top" alt="Palm Springs Road"/>
+            <div class="card-body">
+              <h5 class="card-title">Base para el rostro</h5>
+              <p class="card-text">Logra un tono de piel uniforme y radiante.
+                  Cubre imperfecciones y minimiza la apariencia de poros.
+                  Fórmula ligera y cómoda de llevar.
+                  Controla el brillo y matifica la piel.
+                  Protege tu piel del sol con SPF.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/esmaltes.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+            <div class="card-body">
+              <h5 class="card-title">Esmaltes</h5>
+              <p class="card-text">
+                  Dale color a tu vida con nuestros vibrantes esmaltes.
+                  Uñas perfectas y duraderas con nuestra fórmula de larga duración.
+                  Amplia variedad de colores para todos los gustos.
+                  Secado rápido y fácil aplicación.
+                  Cuida tus uñas con nuestros esmaltes enriquecidos con vitaminas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    <div ><!-- Pills navs -->
+      <ul class="nav nav-pills nav-justified mb-3" id="registro" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link active"
+            id="tab-login"
+            data-mdb-pill-init
+            href="#pills-login"
+            role="tab"
+            aria-controls="pills-login"
+            aria-selected="true"
+            >Iniciar sesión</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="tab-register"
+            data-mdb-pill-init
+            href="#pills-register"
+            role="tab"
+            aria-controls="pills-register"
+            aria-selected="false"
+            >Registrarse</a>
+        </li>
+      </ul>
+    </div>
+
+    
+    <!-- Pills content -->  
+    <div class="tab-content">
+      <div class="row">
+        <div class="col mx-auto"></div>
+      </div>
+      <div
+        class="tab-pane fade show active"
+        id="pills-login"
+        role="tabpanel"
+        aria-labelledby="tab-login">
+        <form id="login">
+          <div class="text-center mb-3">
+            <p>Inicia sesion con:</p>
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-google"></i>
+            </button>
+
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-twitter"></i>
+            </button>
+
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+
+          <p class="text-center">o:</p>
+
+          <!-- Email input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="email" id="email" class="form-control" />
+            <label class="form-label" for="email">Email o Nombre de usuario</label>
+          </div>
+
+          <!-- Password input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="password" id="password" class="form-control" />
+            <label class="form-label" for="password">Contraseña</label>
+          </div>
+
+          <!-- 2 column grid layout -->
+          <div class="row mb-4">
+            <div class="col-md-6 d-flex justify-content-center">
+              <!-- Checkbox -->
+              <div class="form-check mb-3 mb-md-0">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="loginCheck"
+                  checked
+                />
+                <label class="form-check-label" for="loginCheck"> Recordarme </label>
+              </div>
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-center">
+              <!-- Simple link -->
+              <a href="#!">¿Olvido su contraseña?</a>
+            </div>
+          </div>
+
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4">Ingresar</button>
+
+          <!-- Register buttons -->
+          <div class="text-center">
+            <p>¿Aun no eres miembro? <a href="#pills-register">Registrate!!</a></p>
+          </div>
+        </form>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-register"
+        role="tabpanel"
+        aria-labelledby="tab-register">
+        <form id="register">
+          <div class="text-center mb-3">
+            <p>Registrate con:</p>
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-google"></i>
+            </button>
+
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-twitter"></i>
+            </button>
+
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+
+          <p class="text-center">o:</p>
+
+          <!-- Name input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="name" class="form-control" />
+            <label class="form-label" for="name">Nombre</label>
+          </div>
+
+          <!-- Username input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="userName" class="form-control" />
+            <label class="form-label" for="userName">Nombre de usuario</label>
+          </div>
+
+          <!-- Email input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="email" id="email" class="form-control" />
+            <label class="form-label" for="email">Email</label>
+          </div>
+
+          <!-- Password input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="password" id="password" class="form-control" />
+            <label class="form-label" for="password">Contraseña</label>
+          </div>
+
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input
+              class="form-check-input me-2"
+              type="checkbox"
+              value=""
+              id="registerCheck"
+              checked
+              aria-describedby="registerCheckHelpText"
+            />
+            <label class="form-check-label" for="registerCheck">
+              He leido y acepto los terminos de uso
+            </label>
+          </div>
+
+          <!-- Submit button -->
+          <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-3">Registrarse</button>
+        </form>
+      </div>
+    </div>
+    <!-- Pills content -->
+      <!-- Pills content -->
+
+        <!-- MDB -->
+    <script src="js/signup.js"></script>
+    <script src="js/login.js" ></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+  <footer class="text-center text-white" style="background-image: linear-gradient(90deg, #d482c5 0%, #eae6e6 50%, #d482c5 100%);">
+       <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+        data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Github -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Iframe -->
+        <section class="">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  class="shadow-1-strong rounded"
+                  src="https://www.youtube.com/watch?v=rX6YGKgYMvI"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qB87yoYwClw?si=9VEqRS5rhDIWVMe3" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Iframe -->
+      </div>
+      <!-- Grid container -->
+      
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2024 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Line Beauty</a>
+      </div>
+      <!-- Copyright -->
+  </footer>
+</html>
